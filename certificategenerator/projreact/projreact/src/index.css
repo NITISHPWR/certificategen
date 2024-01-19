@@ -1,0 +1,6 @@
+/* In your CSS file or inline styles */
+.active-template {
+  background-color: #48494b; /* Use the color you prefer for highlighting */
+  color: #fff; /* Text color for highlighting */
+  border-color: #007bff; /* Border color for highlighting */
+}

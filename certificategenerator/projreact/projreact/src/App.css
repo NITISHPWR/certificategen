@@ -1,0 +1,66 @@
+
+.App {
+  text-align: center;
+} 
+.certificate-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-div {
+  border: 2px solid #333;
+  flex: 1;
+  /* Additional styling for the left div */
+}
+
+.right-div {
+  flex: 1;
+  /* Additional styling for the right div */
+  border: 2px solid #333; /* Adjust color and width as needed */
+  padding: 15px; /* Optional: Add padding for better visual appeal */
+}
+body {
+  background-color: rgb(229, 229, 245);
+}
+/* Comment this code of App div in css below if running CertificateDesigner.js */ */
+ /* .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
